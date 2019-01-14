@@ -1,0 +1,485 @@
+{
+  "ships": [
+    {
+      "id": "tie-ln-fighter",
+      "name": "TIE Fighter",
+      "faction": "empire",
+      "icon": "xwing-miniatures-ship xwing-miniatures-ship-tiefighter",
+      "attack": 2,
+      "agility": 3,
+      "hull": 3,
+      "shields": 0,
+      "size": 1,
+      "isHyperspace": true,
+      "actions": [{
+        "type": "Focus",
+        "difficulty": "white"
+      }, {
+        "type": "Barrel Roll",
+        "difficulty": "white"
+      }, {
+        "type": "Evade",
+        "difficulty": "white"
+      }
+      ],
+      "maneuvers": [
+        [0, 0, 0, 0, 0, 0],
+        [1, 0, 0, 0, 1, 0],
+        [1, 2, 2, 2, 1, 0],
+        [1, 1, 2, 1, 1, 3],
+        [0, 0, 1, 0, 0, 3],
+        [0, 0, 1, 0, 0, 0]
+      ]
+    }, {
+      "id": "tie-advanced",
+      "name": "TIE Advanced",
+      "faction": "empire",
+      "icon": "xwing-miniatures-ship xwing-miniatures-ship-tieadvanced",
+      "attack": 2,
+      "agility": 3,
+      "hull": 3,
+      "shields": 2,
+      "size": 1,
+      "isHyperspace": true,
+      "actions": [{
+        "type": "Focus",
+        "difficulty": "white",
+        "linked": {
+          "type": "Barrel Roll",
+          "difficulty": "red"
+        }
+      }, {
+        "type": "Lock",
+        "difficulty": "white"
+      }, {
+        "type": "Barrel Roll",
+        "difficulty": "white"
+      }
+      ],
+      "maneuvers": [
+        [0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+        [0, 2, 1, 2, 0, 0, 0, 0, 0, 0],
+        [1, 2, 2, 2, 1, 0, 0, 0, 0, 0],
+        [1, 1, 2, 1, 1, 0, 0, 0, 3, 3],
+        [0, 0, 1, 0, 0, 3, 0, 0, 0, 0],
+        [0, 0, 1, 0, 0, 0, 0, 0, 0, 0]
+      ]
+    }, {
+      "id": "tie-interceptor",
+      "name": "TIE Interceptor",
+      "faction": "empire",
+      "icon": "xwing-miniatures-ship xwing-miniatures-ship-tieinterceptor",
+      "attack": 3,
+      "agility": 3,
+      "hull": 3,
+      "shields": 0,
+      "size": 1,
+      "isHyperspace": false,
+      "actions": [{
+        "type": "Focus",
+        "difficulty": "white"
+      }, {
+        "type": "Barrel Roll",
+        "difficulty": "white"
+      }, {
+        "type": "Boost",
+        "difficulty": "white"
+      }, {
+        "type": "Evade",
+        "difficulty": "white"
+      }
+      ],
+      "maneuvers": [
+        [0, 0, 0, 0, 0, 0, 0, 0],
+        [1, 0, 0, 0, 1, 0, 0, 0],
+        [2, 2, 2, 2, 2, 0, 0, 0],
+        [1, 1, 2, 1, 1, 0, 3, 3],
+        [0, 0, 2, 0, 0, 3, 0, 0],
+        [0, 0, 1, 0, 0, 0, 0, 0]
+      ]
+    }, {
+      "id": "lambda-class-t-4a-shuttle",
+      "name": "Lambda-Class Shuttle",
+      "faction": "empire",
+      "icon": "xwing-miniatures-ship xwing-miniatures-ship-lambdaclassshuttle",
+      "attack": 3,
+      "attackb": 2,
+      "agility": 1,
+      "hull": 6,
+      "shields": 4,
+      "size": 3,
+      "isHyperspace": false,
+      "actions": [{
+        "type": "Focus",
+        "difficulty": "white"
+      }, {
+        "type": "Coordinate",
+        "difficulty": "white"
+      }, {
+        "type": "Reinforce",
+        "difficulty": "white"
+      }, {
+        "type": "Jam",
+        "difficulty": "red"
+      }
+      ],
+      "maneuvers": [
+        [0, 0, 3, 0, 0],
+        [0, 2, 2, 2, 0],
+        [3, 1, 2, 1, 3],
+        [0, 3, 1, 3, 0]
+      ]
+    }, {
+      "id": "tie-sa-bomber",
+      "name": "TIE Bomber",
+      "faction": "empire",
+      "icon": "xwing-miniatures-ship xwing-miniatures-ship-tiebomber",
+      "attack": 2,
+      "agility": 2,
+      "hull": 6,
+      "shields": 0,
+      "size": 1,
+      "isHyperspace": false,
+      "actions": [{
+        "type": "Focus",
+        "difficulty": "white"
+      }, {
+        "type": "Lock",
+        "difficulty": "white"
+      }, {
+        "type": "Barrel Roll",
+        "difficulty": "white",
+        "linked": {
+          "type": "Reload",
+          "difficulty": "red"
+        }
+      }, {
+        "type": "Reload",
+        "difficulty": "red"
+      }
+      ],
+      "maneuvers": [
+        [0, 0, 0, 0, 0, 0],
+        [0, 1, 2, 1, 0, 0],
+        [1, 2, 2, 2, 1, 0],
+        [1, 1, 2, 1, 1, 3],
+        [0, 0, 1, 0, 0, 0],
+        [0, 0, 0, 0, 0, 3]
+      ]
+    }, {
+      "id": "vt-49-decimator",
+      "name": "VT-49 Decimator",
+      "faction": "empire",
+      "icon": "xwing-miniatures-ship xwing-miniatures-ship-vt49decimator",
+      "attackdt": 3,
+      "agility": 0,
+      "hull": 12,
+      "shields": 4,
+      "size": 3,
+      "isHyperspace": false,
+      "actions": [{
+        "type": "Focus",
+        "difficulty": "white"
+      }, {
+        "type": "Lock",
+        "difficulty": "white"
+      }, {
+        "type": "Reinforce",
+        "difficulty": "white"
+      }, {
+        "type": "Rotate Arc",
+        "difficulty": "white"
+      }, {
+        "type": "Coordinate",
+        "difficulty": "red"
+      }
+      ],
+      "maneuvers": [
+        [0, 0, 0, 0, 0, 0],
+        [3, 2, 2, 2, 3, 0],
+        [1, 1, 2, 1, 1, 0],
+        [1, 1, 1, 1, 1, 0],
+        [0, 0, 1, 0, 0, 0]
+      ]
+    }, {
+      "id": "tie-d-defender",
+      "name": "TIE Defender",
+      "faction": "empire",
+      "icon": "xwing-miniatures-ship xwing-miniatures-ship-tiedefender",
+      "attack": 3,
+      "agility": 3,
+      "hull": 3,
+      "shields": 4,
+      "size": 1,
+      "isHyperspace": false,
+      "actions": [{
+        "type": "Focus",
+        "difficulty": "white"
+      }, {
+        "type": "Evade",
+        "difficulty": "white"
+      }, {
+        "type": "Lock",
+        "difficulty": "white"
+      }, {
+        "type": "Barrel Roll",
+        "difficulty": "white"
+      }, {
+        "type": "Boost",
+        "difficulty": "white"
+      }
+      ],
+      "maneuvers": [
+        [0, 0, 0, 0, 0, 0],
+        [3, 2, 0, 2, 3, 0],
+        [3, 1, 2, 1, 3, 3],
+        [1, 1, 2, 1, 1, 0],
+        [0, 0, 2, 0, 0, 1],
+        [0, 0, 2, 0, 0, 0]
+      ]
+    }, {
+      "id": "tie-ph-phantom",
+      "name": "TIE Phantom",
+      "faction": "empire",
+      "icon": "xwing-miniatures-ship xwing-miniatures-ship-tiephantom",
+      "attack": 3,
+      "agility": 2,
+      "hull": 3,
+      "shields": 2,
+      "size": 1,
+      "isHyperspace": false,
+      "actions": [{
+        "type": "Focus",
+        "difficulty": "white"
+      }, {
+        "type": "Evade",
+        "difficulty": "white"
+      }, {
+        "type": "Barrel Roll",
+        "difficulty": "white"
+      }, {
+        "type": "Cloak",
+        "difficulty": "white"
+      }
+      ],
+      "maneuvers": [
+        [0, 0, 0, 0, 0, 0],
+        [1, 1, 0, 1, 1, 0],
+        [1, 2, 2, 2, 1, 0],
+        [1, 1, 2, 1, 1, 3],
+        [0, 0, 1, 0, 0, 3]
+      ]
+    }, {
+      "id": "tie-ca-punisher",
+      "name": "TIE Punisher",
+      "faction": "empire",
+      "icon": "xwing-miniatures-ship xwing-miniatures-ship-tiepunisher",
+      "attack": 2,
+      "agility": 1,
+      "hull": 6,
+      "shields": 3,
+      "size": 2,
+      "isHyperspace": false,
+      "actions": [{
+        "type": "Focus",
+        "difficulty": "white"
+      }, {
+        "type": "Lock",
+        "difficulty": "white"
+      }, {
+        "type": "Boost",
+        "difficulty": "white",
+        "linked": {
+          "type": "Lock",
+          "difficulty": "red"
+        }
+      }, {
+        "type": "Reload",
+        "difficulty": "white"
+      }, {
+        "type": "Barrel Roll",
+        "difficulty": "red"
+      }
+      ],
+      "maneuvers": [
+        [0, 0, 3, 0, 0, 0],
+        [0, 2, 2, 2, 0, 0],
+        [1, 1, 2, 1, 1, 0],
+        [3, 1, 1, 1, 3, 0],
+        [0, 0, 0, 0, 0, 3]
+      ]
+    }, {
+      "id": "tie-advanced-v1",
+      "name": "TIE Advanced Prototype",
+      "faction": "empire",
+      "icon": "xwing-miniatures-ship xwing-miniatures-ship-tieadvprototype",
+      "attack": 2,
+      "agility": 3,
+      "hull": 2,
+      "shields": 2,
+      "size": 1,
+      "isHyperspace": false,
+      "actions": [{
+        "type": "Focus",
+        "difficulty": "white"
+      }, {
+        "type": "Evade",
+        "difficulty": "white"
+      }, {
+        "type": "Lock",
+        "difficulty": "white"
+      }, {
+        "type": "Barrel Roll",
+        "difficulty": "white",
+        "linked": {
+          "type": "Focus",
+          "difficulty": "red"
+        }
+      }, {
+        "type": "Boost",
+        "difficulty": "white",
+        "linked": {
+          "type": "Focus",
+          "difficulty": "red"
+        }
+      }
+      ],
+      "maneuvers": [
+        [0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+        [2, 2, 0, 2, 2, 0, 0, 0, 0, 0],
+        [1, 1, 2, 1, 1, 0, 0, 0, 3, 3],
+        [1, 1, 2, 1, 1, 0, 0, 0, 0, 0],
+        [0, 0, 1, 0, 0, 3, 0, 0, 0, 0],
+        [0, 0, 1, 0, 0, 0, 0, 0, 0, 0]
+      ]
+    }, {
+      "id": "tie-sk-striker",
+      "name": "TIE Striker",
+      "faction": "empire",
+      "icon": "xwing-miniatures-ship xwing-miniatures-ship-tiestriker",
+      "attack": 3,
+      "agility": 2,
+      "hull": 4,
+      "shields": 0,
+      "size": 1,
+      "isHyperspace": true,
+      "actions": [{
+        "type": "Focus",
+        "difficulty": "white"
+      }, {
+        "type": "Evade",
+        "difficulty": "white"
+      }, {
+        "type": "Barrel Roll",
+        "difficulty": "white"
+      }
+      ],
+      "maneuvers": [
+        [0, 0, 0, 0, 0, 0, 0, 0],
+        [1, 2, 2, 2, 1, 3, 0, 0],
+        [1, 2, 2, 2, 1, 0, 3, 3],
+        [0, 1, 2, 1, 0, 0, 0, 0]
+      ]
+    }, {
+      "id": "tie-ag-aggressor",
+      "name": "TIE Aggressor",
+      "faction": "empire",
+      "icon": "xwing-miniatures-ship xwing-miniatures-ship-tieaggressor",
+      "attack": 2,
+      "agility": 2,
+      "hull": 4,
+      "shields": 1,
+      "size": 1,
+      "isHyperspace": false,
+      "actions": [{
+        "type": "Focus",
+        "difficulty": "white"
+      }, {
+        "type": "Lock",
+        "difficulty": "white"
+      }, {
+        "type": "Barrel Roll",
+        "difficulty": "white",
+        "linked": {
+          "type": "Evade",
+          "difficulty": "red"
+        }
+      }
+      ],
+      "maneuvers": [
+        [0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+        [0, 1, 2, 1, 0, 0, 0, 0, 0, 0],
+        [1, 2, 2, 2, 1, 0, 0, 0, 0, 0],
+        [1, 1, 2, 1, 1, 0, 0, 0, 0, 0],
+        [0, 0, 1, 0, 0, 3, 0, 0, 0, 0]
+      ]
+    }, {
+      "id": "alpha-class-star-wing",
+      "name": "Alpha-Class Star Wing",
+      "faction": "empire",
+      "icon": "xwing-miniatures-ship xwing-miniatures-ship-alphaclassstarwing",
+      "attack": 2,
+      "agility": 2,
+      "hull": 4,
+      "shields": 3,
+      "size": 1,
+      "isHyperspace": false,
+      "actions": [{
+        "type": "Focus",
+        "difficulty": "white"
+      }, {
+        "type": "Lock",
+        "difficulty": "white"
+      }, {
+        "type": "Slam",
+        "difficulty": "white"
+      }, {
+        "type": "Reload",
+        "difficulty": "white"
+      }
+      ],
+      "maneuvers": [
+        [0, 0, 0, 0, 0, 0, 0, 0],
+        [0, 1, 2, 1, 0, 0, 0, 0],
+        [1, 2, 2, 2, 1, 0, 0, 0],
+        [1, 1, 1, 1, 1, 0, 0, 0],
+        [0, 0, 3, 0, 0, 0, 0, 0]
+      ]
+    }, {
+      "id": "tie-reaper",
+      "name": "TIE Reaper",
+      "faction": "empire",
+      "icon": "xwing-miniatures-ship xwing-miniatures-ship-tiereaper",
+      "attack": 3,
+      "agility": 1,
+      "hull": 6,
+      "shields": 2,
+      "size": 2,
+      "isHyperspace": true,
+      "actions": [{
+        "type": "Focus",
+        "difficulty": "white"
+      }, {
+        "type": "Evade",
+        "difficulty": "white"
+      }, {
+        "type": "Jam",
+        "difficulty": "white"
+      }, {
+        "type": "Coordinate",
+        "difficulty": "red"
+      }
+      ],
+      "maneuvers": [
+        [0, 0, 3, 0, 0, 0, 0, 0],
+        [3, 2, 2, 2, 3, 0, 3, 3],
+        [3, 1, 2, 1, 3, 0, 0, 0],
+        [0, 1, 2, 1, 0, 0, 0, 0]
+      ]
+    }
+  ]
+,
+
+  "pilots": [
+  ]
+}
