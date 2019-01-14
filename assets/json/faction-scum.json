@@ -1,0 +1,484 @@
+{
+  "ships": [
+    {
+      "name": "Customized YT-1300",
+      "id": "customized-yt-1300-light-freighter",
+      "faction": "scum",
+      "icon": "xwing-miniatures-ship xwing-miniatures-ship-yt1300",
+      "attackdt": 2,
+      "agility": 1,
+      "hull": 8,
+      "shields": 3,
+      "size": 3,
+      "isHyperspace": true,
+      "actions": [
+        {"type": "Focus", "difficulty": "white"},
+        {"type": "Lock", "difficulty": "white"},
+        {"type": "Rotate Arc", "difficulty": "white"},
+        {"type": "Boost", "difficulty": "red"}
+      ],
+      "maneuvers": [
+        [0, 0, 0, 0, 0, 0, 0, 0],
+        [0, 2, 2, 2, 0, 0, 0, 0],
+        [1, 1, 2, 1, 1, 0, 0, 0],
+        [1, 1, 2, 1, 1, 0, 3, 3],
+        [0, 0, 1, 0, 0, 3, 0, 0]
+      ]
+    },
+    {
+      "name": "Firespray-31",
+      "id": "firespray-class-patrol-craft",
+      "faction": "scum",
+      "icon": "xwing-miniatures-ship xwing-miniatures-ship-firespray31",
+      "attack": 3,
+      "attackb": 3,
+      "agility": 2,
+      "hull": 6,
+      "shields": 4,
+      "size": 2,
+      "isHyperspace": true,
+      "actions": [
+        {"type": "Focus", "difficulty": "white"},
+        {"type": "Lock", "difficulty": "white"},
+        {"type": "Boost", "difficulty": "white"},
+        {"type": "Reinforce", "difficulty": "red"}
+      ],
+      "maneuvers": [
+        [0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+        [1, 2, 2, 2, 1, 0, 0, 0, 0, 0],
+        [1, 1, 2, 1, 1, 0, 0, 0, 0, 0],
+        [0, 1, 2, 1, 0, 0, 0, 0, 3, 3],
+        [0, 0, 1, 0, 0, 3, 0, 0, 0, 0]
+      ],
+      "keywords": "Boba Fett"
+    },
+    {
+      "name": "HWK-290",
+      "id": "hwk-290-light-freighter-scum",
+      "faction": "scum",
+      "icon": "xwing-miniatures-ship xwing-miniatures-ship-hwk290",
+      "attackt": 2,
+      "agility": 2,
+      "hull": 3,
+      "shields": 2,
+      "size": 1,
+      "isHyperspace": false,
+      "actions": [
+        {"type": "Focus", "difficulty": "white", "linked": {"type": "Rotate Arc", "difficulty": "red"}},
+        {"type": "Lock", "difficulty": "white", "linked": {"type": "Rotate Arc", "difficulty": "red"}},
+        {"type": "Rotate Arc", "difficulty": "white"},
+        {"type": "Boost", "difficulty": "red"},
+        {"type": "Jam", "difficulty": "red"}
+      ],
+      "maneuvers": [
+        [0, 0, 3, 0, 0],
+        [0, 2, 2, 2, 0],
+        [1, 1, 2, 1, 1],
+        [3, 1, 2, 1, 3],
+        [0, 0, 1, 0, 0]
+      ]
+    },
+    {
+      "name": "Y-Wing",
+      "id": "btl-a4-y-wing-scum",
+      "faction": "scum",
+      "icon": "xwing-miniatures-ship xwing-miniatures-ship-ywing",
+      "attack": 2,
+      "agility": 1,
+      "hull": 6,
+      "shields": 2,
+      "size": 1,
+      "isHyperspace": true,
+      "actions": [
+        {"type": "Focus", "difficulty": "white"},
+        {"type": "Lock", "difficulty": "white"},
+        {"type": "Barrel Roll", "difficulty": "red"},
+        {"type": "Reload", "difficulty": "red"}
+      ],
+      "maneuvers": [
+        [0, 0, 0, 0, 0, 0],
+        [0, 2, 2, 2, 0, 0],
+        [1, 1, 2, 1, 1, 0],
+        [3, 1, 1, 1, 3, 0],
+        [0, 0, 3, 0, 0, 3]
+      ]
+    },
+    {
+      "name": "Z-95 Headhunter",
+      "id": "z-95-af4-headhunter-scum",
+      "faction": "scum",
+      "icon": "xwing-miniatures-ship xwing-miniatures-ship-z95headhunter",
+      "attack": 2,
+      "agility": 2,
+      "hull": 2,
+      "shields": 2,
+      "size": 1,
+      "isHyperspace": false,
+      "actions": [
+        {"type": "Focus", "difficulty": "white"},
+        {"type": "Lock", "difficulty": "white"},
+        {"type": "Barrel Roll", "difficulty": "red"}
+      ],
+      "maneuvers": [
+        [0, 0, 0, 0, 0, 0],
+        [0, 1, 2, 1, 0, 0],
+        [1, 2, 2, 2, 1, 0],
+        [1, 1, 2, 1, 1, 3],
+        [0, 0, 1, 0, 0, 3]
+      ]
+    },
+    {
+      "name": "StarViper",
+      "id": "starviper-class-attack-platform",
+      "faction": "scum",
+      "icon": "xwing-miniatures-ship xwing-miniatures-ship-starviper",
+      "attack": 3,
+      "agility": 3,
+      "hull": 4,
+      "shields": 1,
+      "size": 1,
+      "isHyperspace": false,
+      "actions": [
+        {"type": "Focus", "difficulty": "white"},
+        {"type": "Lock", "difficulty": "white"},
+        {"type": "Barrel Roll", "difficulty": "white", "linked": {"type": "Focus", "difficulty": "red"}},
+        {"type": "Boost", "difficulty": "white", "linked": {"type": "Focus", "difficulty": "red"}}
+      ],
+      "maneuvers": [
+        [0, 0, 0, 0, 0, 0, 0, 0],
+        [1, 2, 2, 2, 1, 0, 0, 0],
+        [1, 2, 2, 2, 1, 0, 0, 0],
+        [0, 1, 2, 1, 0, 0, 3, 3],
+        [0, 0, 1, 0, 0, 0, 0, 0]
+      ]
+    },
+    {
+      "name": "M3-A Interceptor",
+      "id": "m3-a-interceptor",
+      "icon": "xwing-miniatures-ship xwing-miniatures-ship-m3ainterceptor",
+      "faction": "scum",
+      "attack": 2,
+      "agility": 3,
+      "hull": 3,
+      "shields": 1,
+      "size": 1,
+      "isHyperspace": false,
+      "actions": [
+        {"type": "Focus", "difficulty": "white"},
+        {"type": "Evade", "difficulty": "white"},
+        {"type": "Lock", "difficulty": "white"},
+        {"type": "Barrel Roll", "difficulty": "white"}
+      ],
+      "maneuvers": [
+        [0, 0, 0, 0, 0, 0],
+        [1, 2, 0, 2, 1, 0],
+        [1, 1, 2, 1, 1, 0],
+        [0, 1, 2, 1, 0, 3],
+        [0, 0, 1, 0, 0, 0],
+        [0, 0, 1, 0, 0, 3]
+      ],
+      "keywords": "scyk"
+    },
+    {
+      "name": "Aggressor",
+      "id": "aggressor-assault-fighter",
+      "icon": "xwing-miniatures-ship xwing-miniatures-ship-aggressor",
+      "faction": "scum",
+      "attack": 3,
+      "agility": 3,
+      "hull": 5,
+      "shields": 3,
+      "size": 2,
+      "isHyperspace": false,
+      "actions": [
+        {"type": "Calculate", "difficulty": "white"},
+        {"type": "Evade", "difficulty": "white"},
+        {"type": "Lock", "difficulty": "white"},
+        {"type": "Boost", "difficulty": "white"}
+      ],
+      "maneuvers": [
+        [0, 0, 0, 0, 0, 0, 0, 0],
+        [1, 2, 2, 2, 1, 0, 0, 0],
+        [1, 2, 2, 2, 1, 0, 0, 0],
+        [0, 2, 2, 2, 0, 0, 3, 3],
+        [0, 0, 1, 0, 0, 3, 0, 0]
+      ],
+      "keywords": "IG-2000"
+    },
+    {
+      "name": "YV-666",
+      "id": "yv-666-light-freighter",
+      "faction": "scum",
+      "icon": "xwing-miniatures-ship xwing-miniatures-ship-yv666",
+      "attackf": 3,
+      "agility": 1,
+      "hull": 9,
+      "shields": 3,
+      "size": 3,
+      "isHyperspace": false,
+      "actions": [
+        {"type": "Focus", "difficulty": "white"},
+        {"type": "Reinforce", "difficulty": "white"},
+        {"type": "Lock", "difficulty": "white"}
+      ],
+      "maneuvers": [
+        [0, 0, 3, 0, 0, 0],
+        [0, 2, 2, 2, 0, 0],
+        [3, 1, 2, 1, 3, 0],
+        [1, 1, 2, 1, 1, 0],
+        [0, 0, 1, 0, 0, 0]
+      ],
+      "keywords": "Bossk"
+    },
+    {
+      "name": "Kihraxz Fighter",
+      "id": "kihraxz-fighter",
+      "faction": "scum",
+      "icon": "xwing-miniatures-ship xwing-miniatures-ship-kihraxzfighter",
+      "attack": 3,
+      "agility": 2,
+      "hull": 5,
+      "shields": 1,
+      "size": 1,
+      "isHyperspace": false,
+      "actions": [
+        {"type": "Focus", "difficulty": "white"},
+        {"type": "Lock", "difficulty": "white"},
+        {"type": "Barrel Roll", "difficulty": "white"}
+      ],
+      "maneuvers": [
+        [0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+        [1, 2, 0, 2, 1, 0, 0, 0, 0, 0],
+        [1, 2, 2, 2, 1, 0, 0, 0, 3, 3],
+        [0, 1, 2, 1, 0, 0, 0, 0, 0, 0],
+        [0, 0, 1, 0, 0, 3, 0, 0, 0, 0]
+      ]
+    },
+    {
+      "name": "G-1A Starfighter",
+      "id": "g-1a-starfighter",
+      "faction": "scum",
+      "icon": "xwing-miniatures-ship xwing-miniatures-ship-g1astarfighter",
+      "attack": 3,
+      "agility": 1,
+      "hull": 5,
+      "shields": 4,
+      "size": 2,
+      "isHyperspace": false,
+      "actions": [
+        {"type": "Focus", "difficulty": "white"},
+        {"type": "Lock", "difficulty": "white"},
+        {"type": "Jam", "difficulty": "white"}
+      ],
+      "maneuvers": [
+        [0, 0, 3, 0, 0, 0],
+        [3, 2, 2, 2, 3, 0],
+        [1, 1, 2, 1, 1, 3],
+        [0, 3, 1, 3, 0, 0],
+        [0, 0, 3, 0, 0, 3]
+      ],
+      "keywords": "4-lom, Zukuss"
+    },
+    {
+      "name": "JumpMaster 5000",
+      "id": "jumpmaster-5000",
+      "faction": "scum",
+      "icon": "xwing-miniatures-ship xwing-miniatures-ship-jumpmaster5000",
+      "attackt": 2,
+      "agility": 2,
+      "hull": 6,
+      "shields": 3,
+      "size": 3,
+      "isHyperspace": false,
+      "actions": [
+        {"type": "Focus", "difficulty": "white", "linked": {"type": "Rotate Arc", "difficulty": "red"}},
+        {"type": "Lock", "difficulty": "white", "linked": {"type": "Rotate Arc", "difficulty": "red"}},
+        {"type": "Barrel Roll", "difficulty": "red"}
+      ],
+      "maneuvers": [
+        [0, 0, 0, 0, 0, 0, 0, 0],
+        [1, 2, 2, 1, 3, 0, 0, 0],
+        [1, 2, 2, 1, 3, 0, 0, 0],
+        [0, 2, 2, 1, 0, 0, 3, 0],
+        [0, 0, 1, 0, 0, 3, 0, 0]
+      ]
+    },
+    {
+      "name": "Fang Fighter",
+      "id": "fang-fighter",
+      "faction": "scum",
+      "icon": "xwing-miniatures-ship xwing-miniatures-ship-protectoratestarfighter",
+      "attack": 3,
+      "agility": 3,
+      "hull": 4,
+      "shields": 0,
+      "size": 1,
+      "isHyperspace": true,
+      "actions": [
+        {"type": "Focus", "difficulty": "white"},
+        {"type": "Lock", "difficulty": "white"},
+        {"type": "Barrel Roll", "difficulty": "white", "linked": {"type": "Focus", "difficulty": "red"}},
+        {"type": "Boost", "difficulty": "white", "linked": {"type": "Focus", "difficulty": "red"}}
+      ],
+      "maneuvers": [
+        [0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+        [1, 0, 0, 0, 1, 0, 0, 0, 0, 0],
+        [2, 2, 2, 2, 2, 0, 0, 0, 3, 3],
+        [1, 1, 2, 1, 1, 0, 0, 0, 0, 0],
+        [0, 0, 1, 0, 0, 3, 0, 0, 0, 0],
+        [0, 0, 1, 0, 0, 0, 0, 0, 0, 0]
+      ],
+      "keywords": "Protectorate, Fenn Rau"
+    },
+    {
+      "name": "Lancer-Class Pursuit Craft",
+      "id": "lancer-class-pursuit-craft",
+      "faction": "scum",
+      "icon": "xwing-miniatures-ship xwing-miniatures-ship-lancerclasspursuitcraft",
+      "attack": 3,
+      "attackt": 2,
+      "agility": 2,
+      "hull": 8,
+      "shields": 2,
+      "size": 3,
+      "isHyperspace": false,
+      "actions": [
+        {"type": "Focus", "difficulty": "white"},
+        {"type": "Evade", "difficulty": "white"},
+        {"type": "Lock", "difficulty": "white"},
+        {"type": "Rotate Arc", "difficulty": "white"}
+      ],
+      "maneuvers": [
+        [0, 0, 0, 0, 0, 0],
+        [0, 1, 1, 1, 0, 0],
+        [1, 1, 2, 1, 1, 0],
+        [2, 2, 2, 2, 2, 0],
+        [0, 0, 2, 0, 0, 0],
+        [0, 0, 1, 0, 0, 3]
+      ],
+      "keywords": "asajj ventress"
+    },
+    {
+      "name": "Quadrijet Transfer Spacetug",
+      "id": "quadrijet-transfer-spacetug",
+      "faction": "scum",
+      "icon": "xwing-miniatures-ship xwing-miniatures-ship-quadjumper",
+      "attack": 2,
+      "agility": 2,
+      "hull": 5,
+      "shields": 0,
+      "size": 1,
+      "isHyperspace": false,
+      "actions": [
+        {"type": "Barrel Roll", "difficulty": "white"},
+        {"type": "Focus", "difficulty": "white"},
+        {"type": "Evade", "difficulty": "red"}
+      ],
+      "maneuvers": [
+        [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+        [1, 1, 1, 1, 1, 0, 0, 0, 0, 0, 3, 0, 3],
+        [1, 2, 2, 2, 1, 0, 3, 3, 0, 0, 0, 3, 0],
+        [0, 1, 2, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+      ]
+    },
+    {
+      "name": "Scurrg H-6 Bomber",
+      "id": "scurrg-h-6-bomber",
+      "faction": "scum",
+      "icon": "xwing-miniatures-ship xwing-miniatures-ship-scurrgh6bomber",
+      "attack": 3,
+      "agility": 1,
+      "hull": 6,
+      "shields": 4,
+      "size": 2,
+      "isHyperspace": false,
+      "actions": [
+        {"type": "Focus", "difficulty": "white"},
+        {"type": "Lock", "difficulty": "white"},
+        {"type": "Barrel Roll", "difficulty": "red"}
+      ],
+      "maneuvers": [
+        [0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+        [0, 2, 2, 2, 0, 0, 0, 0, 0, 0],
+        [1, 1, 2, 1, 1, 0, 0, 0, 0, 0],
+        [3, 1, 1, 1, 3, 0, 0, 0, 3, 3],
+        [0, 0, 3, 0, 0, 0, 0, 0, 0, 0]
+      ],
+      "keywords": "nym"
+    },
+    {
+      "name": "M12-L Kimogila Fighter",
+      "id": "m12-l-kimogila-fighter",
+      "faction": "scum",
+      "icon": "xwing-miniatures-ship xwing-miniatures-ship-m12lkimogilafighter",
+      "attack": 3,
+      "agility": 1,
+      "hull": 7,
+      "shields": 2,
+      "size": 2,
+      "isHyperspace": false,
+      "actions": [
+        {"type": "Focus", "difficulty": "white"},
+        {"type": "Lock", "difficulty": "white"},
+        {"type": "Reload", "difficulty": "white"},
+        {"type": "Barrel Roll", "difficulty": "red"}
+      ],
+      "maneuvers": [
+        [0, 0, 0, 0, 0, 0],
+        [3, 1, 2, 1, 3, 0],
+        [1, 2, 2, 2, 1, 0],
+        [1, 1, 2, 1, 1, 0],
+        [0, 0, 0, 0, 0, 3]
+      ]
+    },
+    {
+      "name": "Escape Craft",
+      "id": "escape-craft",
+      "faction": "scum",
+      "icon": "xwing-miniatures-ship xwing-miniatures-ship-escapecraft",
+      "attack": 2,
+      "agility": 2,
+      "hull": 2,
+      "shields": 2,
+      "size": 1,
+      "isHyperspace": true,
+      "actions": [
+        {"type": "Focus", "difficulty": "white"},
+        {"type": "Barrel Roll", "difficulty": "white"},
+        {"type": "Coordinate", "difficulty": "red"}
+      ],
+      "maneuvers": [
+        [0, 0, 3, 0, 0, 0, 0, 0],
+        [0, 2, 2, 2, 0, 0, 0, 0],
+        [3, 1, 2, 1, 3, 0, 0, 0],
+        [0, 1, 1, 1, 0, 3, 0, 0]
+      ]
+    },
+    {
+      "name": "Mining Guild TIE Fighter",
+      "id": "modified-tie-ln-fighter",
+      "faction": "scum",
+      "icon": "xwing-miniatures-ship xwing-miniatures-ship-modifiedtielnfighter",
+      "attack": 2,
+      "agility": 3,
+      "hull": 3,
+      "shields": 0,
+      "size": 1,
+      "isHyperspace": true,
+      "actions": [
+        {"type": "Focus", "difficulty": "white"},
+        {"type": "Barrel Roll", "difficulty": "white"},
+        {"type": "Evade", "difficulty": "white"}
+      ],
+      "maneuvers": [
+        [0, 0, 0, 0, 0, 0],
+        [1, 0, 0, 0, 1, 0],
+        [1, 2, 2, 2, 1, 0],
+        [1, 1, 2, 1, 1, 3],
+        [0, 0, 1, 0, 0, 0],
+        [0, 0, 3, 0, 0, 0]
+      ]
+    }
+  ],
+  "pilots": []
+}
