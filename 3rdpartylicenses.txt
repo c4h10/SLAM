@@ -365,6 +365,12 @@ MIT
 
 @angular/material/icon
 
+@angular/material/expansion
+
+@angular/material/menu
+
+@angular/material/chips
+
 @ncstate/sat-popover
 MIT
 
